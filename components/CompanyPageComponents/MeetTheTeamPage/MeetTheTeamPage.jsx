@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { motion } from 'framer-motion'
 import team from './Team.json'
-import profile from '@/assest/Image/profile2.jpg'
+// import profile from '@/assest/Image/profile2.jpg'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Footer from '@/components/Footer/Footer';
 import WhatsAppIcon from '@/components/WhatsAppIcon/WhatsAppIcon';
@@ -63,45 +63,45 @@ const MeetTheTeamPage = () => {
     }
 
 
-    const profile1 = 'https://websiteimagessb.s3.us-west-2.amazonaws.com/Team/profile1.jpg'
-    const profile2 = 'https://websiteimagessb.s3.us-west-2.amazonaws.com/Team/profile2.jpg'
-    const profile3 = 'https://websiteimagessb.s3.us-west-2.amazonaws.com/Team/profile3.jpg'
+    // const profile1 = 'https://websiteimagessb.s3.us-west-2.amazonaws.com/Team/profile1.jpg'
+    // const profile2 = 'https://websiteimagessb.s3.us-west-2.amazonaws.com/Team/profile2.jpg'
+    // const profile3 = 'https://websiteimagessb.s3.us-west-2.amazonaws.com/Team/profile3.jpg'
 
-    const profile5 = 'https://websiteimagessb.s3.us-west-2.amazonaws.com/Team/profile5.jpg'
-    const profile6 = 'https://websiteimagessb.s3.us-west-2.amazonaws.com/Team/profile6.jpg'
+    // const profile5 = 'https://websiteimagessb.s3.us-west-2.amazonaws.com/Team/profile5.jpg'
+    // const profile6 = 'https://websiteimagessb.s3.us-west-2.amazonaws.com/Team/profile6.jpg'
 
-    const teamArray = [
-        {
-            "image": "https://websiteimagessb.s3.us-west-2.amazonaws.com/Team/profile1.jpg",
-            "name": "Amit Prajapati",
-            "description": "Founder & CEO"
-        },
-        {
-            "image": "https://websiteimagessb.s3.us-west-2.amazonaws.com/Team/profile2.jpg",
-            "name": "Santosh Kumar Panda",
-            "description": "Head - Digital Transformation"
-        },
-        {
-            "image": "https://websiteimagessb.s3.us-west-2.amazonaws.com/Team/profile3.jpg",
-            "name": "Nimain Giri",
-            "description": "Head - R & D"
-        },
-        {
-            "image": "https://1fid.com/wp-content/uploads/2022/06/no-profile-picture-4-1024x1024.jpg",
-            "name": "Ashok Kumar Gupta",
-            "description": "VP - Sales & Marketing"
-        },
-        {
-            "image": "https://websiteimagessb.s3.us-west-2.amazonaws.com/Team/profile5.jpg",
-            "name": "Sanjeev Bhatia",
-            "description": "VP - Campaign and Growth"
-        },
-        {
-            "image": "https://websiteimagessb.s3.us-west-2.amazonaws.com/Team/profile6.jpg",
-            "name": "Deendayal Prajapati",
-            "description": "VP - Govt Relations"
-        }
-    ]
+    // const teamArray = [
+    //     {
+    //         "image": "https://websiteimagessb.s3.us-west-2.amazonaws.com/Team/profile1.jpg",
+    //         "name": "Amit Prajapati",
+    //         "description": "Founder & CEO"
+    //     },
+    //     {
+    //         "image": "https://websiteimagessb.s3.us-west-2.amazonaws.com/Team/profile2.jpg",
+    //         "name": "Santosh Kumar Panda",
+    //         "description": "Head - Digital Transformation"
+    //     },
+    //     {
+    //         "image": "https://websiteimagessb.s3.us-west-2.amazonaws.com/Team/profile3.jpg",
+    //         "name": "Nimain Giri",
+    //         "description": "Head - R & D"
+    //     },
+    //     {
+    //         "image": "https://1fid.com/wp-content/uploads/2022/06/no-profile-picture-4-1024x1024.jpg",
+    //         "name": "Ashok Kumar Gupta",
+    //         "description": "VP - Sales & Marketing"
+    //     },
+    //     {
+    //         "image": "https://websiteimagessb.s3.us-west-2.amazonaws.com/Team/profile5.jpg",
+    //         "name": "Sanjeev Bhatia",
+    //         "description": "VP - Campaign and Growth"
+    //     },
+    //     {
+    //         "image": "https://websiteimagessb.s3.us-west-2.amazonaws.com/Team/profile6.jpg",
+    //         "name": "Deendayal Prajapati",
+    //         "description": "VP - Govt Relations"
+    //     }
+    // ]
 
 
     return (
